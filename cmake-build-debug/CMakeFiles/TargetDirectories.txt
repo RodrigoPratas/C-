@@ -4,5 +4,6 @@
 /home/rodrigo/repos/C-/cmake-build-debug/CMakeFiles/C_givechange.dir
 /home/rodrigo/repos/C-/cmake-build-debug/CMakeFiles/C_timediff.dir
 /home/rodrigo/repos/C-/cmake-build-debug/CMakeFiles/C_strickincreaserel.dir
+/home/rodrigo/repos/C-/cmake-build-debug/CMakeFiles/C_axis.dir
 /home/rodrigo/repos/C-/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/rodrigo/repos/C-/cmake-build-debug/CMakeFiles/rebuild_cache.dir

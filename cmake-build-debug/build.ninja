@@ -226,6 +226,37 @@ build C_strickincreaserel: C_EXECUTABLE_LINKER__C_strickincreaserel_Debug CMakeF
   TARGET_FILE = C_strickincreaserel
   TARGET_PDB = C_strickincreaserel.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_axis
+
+
+#############################################
+# Order-only phony target for C_axis
+
+build cmake_object_order_depends_target_C_axis: phony || CMakeFiles/C_axis.dir
+
+build CMakeFiles/C_axis.dir/axis.c.o: C_COMPILER__C_axis_Debug /home/rodrigo/repos/C-/axis.c || cmake_object_order_depends_target_C_axis
+  DEP_FILE = CMakeFiles/C_axis.dir/axis.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_axis.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_axis.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_axis
+
+
+#############################################
+# Link the executable C_axis
+
+build C_axis: C_EXECUTABLE_LINKER__C_axis_Debug CMakeFiles/C_axis.dir/axis.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_axis.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_axis
+  TARGET_PDB = C_axis.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -260,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-/cmake-build-debug
 
-build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel
+build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis
 
 # =============================================================================
 # Built-in targets

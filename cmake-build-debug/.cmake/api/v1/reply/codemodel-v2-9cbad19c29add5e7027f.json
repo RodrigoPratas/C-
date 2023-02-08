@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -51,6 +53,13 @@
 					"id" : "C_HelloWorld::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C_HelloWorld-Debug-475ee169928e65ced741.json",
 					"name" : "C_HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_axis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_axis-Debug-1c20a3d7b2fa427d779a.json",
+					"name" : "C_axis",
 					"projectIndex" : 0
 				},
 				{

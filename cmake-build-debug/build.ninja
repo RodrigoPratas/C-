@@ -257,6 +257,37 @@ build C_axis: C_EXECUTABLE_LINKER__C_axis_Debug CMakeFiles/C_axis.dir/axis.c.o
   TARGET_FILE = C_axis
   TARGET_PDB = C_axis.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_grades
+
+
+#############################################
+# Order-only phony target for C_grades
+
+build cmake_object_order_depends_target_C_grades: phony || CMakeFiles/C_grades.dir
+
+build CMakeFiles/C_grades.dir/grades.c.o: C_COMPILER__C_grades_Debug /home/rodrigo/repos/C-/grades.c || cmake_object_order_depends_target_C_grades
+  DEP_FILE = CMakeFiles/C_grades.dir/grades.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_grades.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_grades.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_grades
+
+
+#############################################
+# Link the executable C_grades
+
+build C_grades: C_EXECUTABLE_LINKER__C_grades_Debug CMakeFiles/C_grades.dir/grades.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_grades.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_grades
+  TARGET_PDB = C_grades.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -291,7 +322,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-/cmake-build-debug
 
-build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis
+build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis C_grades
 
 # =============================================================================
 # Built-in targets

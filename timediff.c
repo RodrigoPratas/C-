@@ -72,4 +72,5 @@ int main(){
         }
     }
     printf("The difference between both times is %d:%d:%d!!! \n", hd, md, sd);
+    return 0;
 }

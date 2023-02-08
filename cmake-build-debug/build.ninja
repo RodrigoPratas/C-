@@ -195,6 +195,37 @@ build C_timediff: C_EXECUTABLE_LINKER__C_timediff_Debug CMakeFiles/C_timediff.di
   TARGET_FILE = C_timediff
   TARGET_PDB = C_timediff.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_strickincreaserel
+
+
+#############################################
+# Order-only phony target for C_strickincreaserel
+
+build cmake_object_order_depends_target_C_strickincreaserel: phony || CMakeFiles/C_strickincreaserel.dir
+
+build CMakeFiles/C_strickincreaserel.dir/strickincreaserel.c.o: C_COMPILER__C_strickincreaserel_Debug /home/rodrigo/repos/C-/strickincreaserel.c || cmake_object_order_depends_target_C_strickincreaserel
+  DEP_FILE = CMakeFiles/C_strickincreaserel.dir/strickincreaserel.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_strickincreaserel.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_strickincreaserel.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_strickincreaserel
+
+
+#############################################
+# Link the executable C_strickincreaserel
+
+build C_strickincreaserel: C_EXECUTABLE_LINKER__C_strickincreaserel_Debug CMakeFiles/C_strickincreaserel.dir/strickincreaserel.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_strickincreaserel.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_strickincreaserel
+  TARGET_PDB = C_strickincreaserel.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -229,7 +260,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-/cmake-build-debug
 
-build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff
+build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel
 
 # =============================================================================
 # Built-in targets

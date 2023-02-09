@@ -288,6 +288,37 @@ build C_grades: C_EXECUTABLE_LINKER__C_grades_Debug CMakeFiles/C_grades.dir/grad
   TARGET_FILE = C_grades
   TARGET_PDB = C_grades.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_algoritmcount
+
+
+#############################################
+# Order-only phony target for C_algoritmcount
+
+build cmake_object_order_depends_target_C_algoritmcount: phony || CMakeFiles/C_algoritmcount.dir
+
+build CMakeFiles/C_algoritmcount.dir/algoritmcount.c.o: C_COMPILER__C_algoritmcount_Debug /home/rodrigo/repos/C-/algoritmcount.c || cmake_object_order_depends_target_C_algoritmcount
+  DEP_FILE = CMakeFiles/C_algoritmcount.dir/algoritmcount.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_algoritmcount.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_algoritmcount.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_algoritmcount
+
+
+#############################################
+# Link the executable C_algoritmcount
+
+build C_algoritmcount: C_EXECUTABLE_LINKER__C_algoritmcount_Debug CMakeFiles/C_algoritmcount.dir/algoritmcount.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_algoritmcount.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_algoritmcount
+  TARGET_PDB = C_algoritmcount.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -322,7 +353,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-/cmake-build-debug
 
-build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis C_grades
+build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis C_grades C_algoritmcount
 
 # =============================================================================
 # Built-in targets

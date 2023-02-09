@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -55,6 +57,13 @@
 					"id" : "C_HelloWorld::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C_HelloWorld-Debug-475ee169928e65ced741.json",
 					"name" : "C_HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_algoritmcount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_algoritmcount-Debug-265ce3f9e7c073eadfaa.json",
+					"name" : "C_algoritmcount",
 					"projectIndex" : 0
 				},
 				{

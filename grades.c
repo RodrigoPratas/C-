@@ -23,6 +23,7 @@ int main(){
     mean= (a+b+c+d) / 4;
     if(a>=b && a>=c && a>=d){
         hgv="a";
+        g1=a;
     }
     if(b>=a && b>=c && b>=d){
         hgv="b";

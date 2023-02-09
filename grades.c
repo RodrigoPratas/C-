@@ -1,6 +1,7 @@
 //
 // Created by rodrigo on 2/8/23.
 //
+//Assignment:
 //Write the program that reads from the keyboard four integer values to be stored in the variables a, b,
 //c, d which mean grades on the scale of 0 to 20 values, these values to be validated and
 //write the following calculations in the terminal:

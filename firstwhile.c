@@ -1,6 +1,7 @@
 //
 // Created by rodrigo on 2/9/23.
 //
+//Assignment:
 //Write a program that reads from the keyboard a sequence of integers (number by number) and
 //end with a letter, any letter stops the sequence, use while( (scanf(“%d”, &n))==1 ) and calculate:
 //1.1 How many numbers were read;

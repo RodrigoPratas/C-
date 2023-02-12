@@ -350,6 +350,37 @@ build C_firstwhile: C_EXECUTABLE_LINKER__C_firstwhile_Debug CMakeFiles/C_firstwh
   TARGET_FILE = C_firstwhile
   TARGET_PDB = C_firstwhile.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_while
+
+
+#############################################
+# Order-only phony target for C_while
+
+build cmake_object_order_depends_target_C_while: phony || CMakeFiles/C_while.dir
+
+build CMakeFiles/C_while.dir/while.c.o: C_COMPILER__C_while_Debug /home/rodrigo/repos/C-/while.c || cmake_object_order_depends_target_C_while
+  DEP_FILE = CMakeFiles/C_while.dir/while.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_while.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_while.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_while
+
+
+#############################################
+# Link the executable C_while
+
+build C_while: C_EXECUTABLE_LINKER__C_while_Debug CMakeFiles/C_while.dir/while.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_while.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_while
+  TARGET_PDB = C_while.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -384,7 +415,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-/cmake-build-debug
 
-build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis C_grades C_algoritmcount C_firstwhile
+build all: phony C_HelloWorld C_dist2points C_seconds C_givechange C_timediff C_strickincreaserel C_axis C_grades C_algoritmcount C_firstwhile C_while
 
 # =============================================================================
 # Built-in targets
